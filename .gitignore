@@ -1,0 +1,7 @@
+node_modules
+dist
+.idea
+error.log
+plugins.json
+.DS_Store
+.vscode
