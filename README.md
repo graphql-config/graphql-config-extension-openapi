@@ -24,5 +24,4 @@ const patchedConfig: GraphQLConfigData = patchEndpointsToConfig(config, process.
 ```
 
 ## Current Usages
-This is currently being used in [graphql-cli] to provide `get-schema` and `prepare` functionality for OpenAPI endpoints.
-
+This is currently being used in [graphql-cli](https://github.com/graphql-cli/graphql-cli) to provide `get-schema` functionality for OpenAPI endpoints.
