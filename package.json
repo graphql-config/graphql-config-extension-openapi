@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "@kbrandwijk/swagger-to-graphql": "1.4.2",
-    "graphql-config": "1.2.0"
+    "graphql-config": "1.2.1"
   },
   "devDependencies": {
     "@types/graphql": "0.12.3",
