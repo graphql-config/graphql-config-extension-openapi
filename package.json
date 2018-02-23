@@ -2,10 +2,11 @@
   "name": "graphql-config-extension-openapi",
   "version": "0.0.0-development",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "license": "MIT",
   "dependencies": {
     "@kbrandwijk/swagger-to-graphql": "2.4.2",
     "graphql-config": "2.0.0"
