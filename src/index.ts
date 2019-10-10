@@ -1,7 +1,7 @@
-import * as build from '@kbrandwijk/swagger-to-graphql'
 import { GraphQLSchema } from 'graphql'
 import { GraphQLConfig, GraphQLConfigData, GraphQLEndpoint, GraphQLProjectConfig } from 'graphql-config'
 import { set, values } from 'lodash'
+import { resolveSchema } from "./swagger-to-graphql-adapter";
 
 export class OpenApiEndpoint extends GraphQLEndpoint {
   definitionFile: string
@@ -12,7 +12,7 @@ export class OpenApiEndpoint extends GraphQLEndpoint {
   }
 
   async resolveSchema(): Promise<GraphQLSchema> {
-    return build(this.definitionFile)
+    return resolveSchema(this.definitionFile)
   }
 }
 
