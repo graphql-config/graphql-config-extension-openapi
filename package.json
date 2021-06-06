@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "@kbrandwijk/swagger-to-graphql": "2.4.3",
-    "graphql-config": "2.2.1"
+    "graphql-config": "3.3.0"
   },
   "devDependencies": {
     "@types/graphql": "0.12.4",
